@@ -7,19 +7,19 @@ The core goal here is to implement a functional game where enemy tanks will patr
 
 ## Finite State Machine
 
-<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG" alt="finite state machine" width="500" height="400"/>
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG" alt="finite state machine" width="400" height="300"/>
 
 The machine we're building here will have states that interact like this:
 
-<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied.JPG" alt="finite states applied" width="500" height="400"/>
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied.JPG" alt="finite states applied" width="400" height="200"/>
 
 I'd recommend checking out the tutorial directly if you're unfamiliar with finite state machines, but the gist of it is that the logic of a StateController class determines when an AI changes states, and each state has a logic of actions, decisions, and transitions.
 
-<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/state_controller.JPG" alt="state controller" width="500" height="400"/>
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/state_controller.JPG" alt="state controller" width="400" height="200"/>
 
 Thus each AI will behave according to this:
 
-<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied_with_details.JPG" alt="finite states applied with details" width="500" height="400"/>
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied_with_details.JPG" alt="finite states applied with details" width="400" height="200"/>
 
 This logic is implemented in [Assets/PluggableAI/Scripts](https://github.com/hrand1005/unity-projects/tree/main/TANKS!(withAI)/Assets/PluggableAI/Scripts).
 
