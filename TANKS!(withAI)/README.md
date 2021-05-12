@@ -6,20 +6,20 @@ There are some great tutorials out there to get started in unity. This project i
 The core goal here is to implement a functional game where enemy tanks will patrol, and attack you if noticed. The enemy AIs here are implemented using the concept of a "finite state machine".
 
 ## Finite State Machine
-![finite state machine](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG =200x200)
-<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG" alt="finite state machine" width="200" height="200"/>
+
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG" alt="finite state machine" width="500" height="400"/>
 
 The machine we're building here will have states that interact like this:
 
-![finite states applied](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied.JPG)
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied.JPG" alt="finite states applied" width="500" height="400"/>
 
 I'd recommend checking out the tutorial directly if you're unfamiliar with finite state machines, but the gist of it is that the logic of a StateController class determines when an AI changes states, and each state has a logic of actions, decisions, and transitions.
 
-![state controller](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/state_controller.JPG)
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/state_controller.JPG" alt="state controller" width="500" height="400"/>
 
 Thus each AI will behave according to this:
 
-![finite states applied with details](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied_with_details.JPG)
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied_with_details.JPG" alt="finite states applied with details" width="500" height="400"/>
 
 This logic is implemented in [Assets/PluggableAI/Scripts](https://github.com/hrand1005/unity-projects/tree/main/TANKS!(withAI)/Assets/PluggableAI/Scripts).
 
