@@ -6,7 +6,7 @@ There are some great tutorials out there to get started in unity. This project i
 The core goal here is to implement a functional game where enemy tanks will patrol, and attack you if noticed. The enemy AIs here are implemented using the concept of a "finite state machine".
 
 ## Finite State Machine
-![finite state machine](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG)
+![finite state machine](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG =200x200)
 
 The machine we're building here will have states that interact like this:
 
