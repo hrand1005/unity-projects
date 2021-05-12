@@ -6,19 +6,19 @@ There are some great tutorials out there to get started in unity. This project i
 The core goal here is to implement a functional game where enemy tanks will patrol, and attack you if noticed. The enemy AIs here are implemented using the concept of a "finite state machine".
 
 ## Finite State Machine
-(image)
+![finite state machine](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG)
 
 The machine we're building here will have states that interact like this:
 
-(image)
+![finite states applied](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied.JPG)
 
 I'd recommend checking out the tutorial directly if you're unfamiliar with finite state machines, but the gist of it is that the logic of a StateController class determines when an AI changes states, and each state has a logic of actions, decisions, and transitions.
 
-(image)
+![state controller](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/state_controller.JPG)
 
 Thus each AI will behave according to this:
 
-(image)
+![finite states applied with details](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/finite_states_applied_with_details.JPG)
 
 This logic is implemented in [Assets/PluggableAI/Scripts](https://github.com/hrand1005/unity-projects/tree/main/TANKS!(withAI)/Assets/PluggableAI/Scripts).
 
