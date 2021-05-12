@@ -26,7 +26,7 @@ This logic is implemented in [Assets/PluggableAI/Scripts](https://github.com/hra
 ## Important Changes
 All put together, a successful tutorial will leave you with something like this:
 
-(normal video)
+![ChaserAI](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/ChaserAI.mp4)
 
 But the fun part is implementing new types of AIs, and thus new states and actions. Enter the all-new buzzsaw AI (patent-pending):
 
