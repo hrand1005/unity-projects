@@ -30,15 +30,15 @@ All put together, a successful tutorial will leave you with something like this:
 
 But the fun part is implementing new types of AIs, and thus new states and actions. Enter the all-new buzzsaw AI (patent-pending):
 
-(BuzzSaw video)
+![BuzzSawBlasterAI](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Buzzsaw%20Blaster.mp4)
 
 ...and the coward AI...
 
-(coward video)
+![CowardAI](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Coward%20Full%20Gameplay.mp4)
 
 A variety of AIs make for a whole new gaming experience, improving replayability and longevity.
 
-(full video with new AIs)
+![FullGame](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Victory.mp4)
 
 ### New Scripts
 
