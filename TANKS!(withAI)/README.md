@@ -7,6 +7,7 @@ The core goal here is to implement a functional game where enemy tanks will patr
 
 ## Finite State Machine
 ![finite state machine](https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG =200x200)
+<img src="https://github.com/hrand1005/unity-projects/blob/main/TANKS!(withAI)/media/Capture.JPG" alt="finite state machine" width="200" height="200"/>
 
 The machine we're building here will have states that interact like this:
 
